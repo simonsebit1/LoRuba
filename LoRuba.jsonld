@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "LoRuba"
+    },
+    "motivations": {
+      "@value": "My motivation to become a Cardano DRep is driven by a belief in the transformative potential of decentralized governance and the Cardano ecosystem. My key motivations include:\n\nElevating Community Voices: \nRepresenting and amplifying the interests of diverse ADA holders, including those unable to participate directly in governance.\n\nFostering Responsible Growth: \nSupporting well-researched, technically sound proposals aligned with Cardano’s long-term vision.\n\nChampioning Decentralization and Fairness: \nEnsuring governance reflects the collective community will, safeguarding Cardano’s principles of fairness and transparency.\n\nLeveraging Expertise: \nUsing a background in blockchain, data analysis, and community engagement to critically evaluate proposals and guide growth.\n\nI am committed to building a decentralized future, ensuring equitable power distribution, and serving as a transparent, diligent, and accessible advocate for the Cardano community."
+    },
+    "objectives": {
+      "@value": "To serve as a Cardano DRep with the goal of fostering a transparent, inclusive, and sustainable governance ecosystem. By leveraging deep knowledge of blockchain technology, data-driven decision-making, and a commitment to representing the diverse interests of the Cardano community, I aim to:\n\nEnhance Community Engagement: \nActively listening to ADA holders, promoting inclusivity, and facilitating open communication.\n\nPromoting Informed Decision-Making: \nEvaluating proposals through thorough research and analysis to align decisions with Cardano's long-term vision.\n\nSupporting Ecosystem Growth: \nAdvocating for innovation, network security, and broader adoption of Cardano.\n\nChampioning Transparency and Accountability: \nMaintaining high standards of integrity, documenting governance actions, and fostering trust.\n\nThese efforts aim to empower the community and strengthen Cardano's decentralized governance framework for a resilient blockchain future."
+    },
+    "paymentAddress": {
+      "@value": "addr1qyr2ew374guu2glfvgmcgszglr59mhrcsshe9utycxrs7jt56vxjnd866z75t8wgdhm3a6rwjsfda9xqlwj4w7ytanms0pjpe9"
+    },
+    "qualifications": {
+      "@value": "With over 19 years of government experience, including six years in grant assessments and 13+ years in auditing and investigations, I bring a wealth of expertise in regulatory compliance, financial analysis, and stakeholder engagement. My background includes:\n\nGrant Evaluation: \nProficient in assessing proposals against complex criteria to make informed, objective decisions.\n\nAuditing and Investigations: \nSkilled in analyzing financial documents, uncovering discrepancies, and ensuring compliance with taxation laws.\n\nAnalytical Excellence: \nExperienced in reviewing corporate records and conducting thorough investigations, ensuring data-driven and fair decisions.\n\nIntegrity and Transparency: \nCommitted to high standards of accountability and fairness, reflecting the core values of decentralized governance.\n\nStakeholder Engagement: \nEffective communicator with experience liaising with diverse groups, ensuring clarity and inclusivity."
+    },
+    "references": []
+  }
+}
